@@ -1,6 +1,6 @@
 # Translator
 
-![Translator](image)
+![Translator](image2.png)
 
 <div align="center">
 
@@ -13,8 +13,11 @@
     <img src="https://img.shields.io/badge/-Neon_Database-black?style=for-the-badge&logoColor=white&logo=neon&color=00C853" alt="neon" />
   </div>
 
-  <h3 align="center">Translator -  Language Translation Tool With AI</h3>
-</div>
+ <h3 align="center">Translator -  Language Translation Tool With AI</h3></div>
+  <div align="center">
+    <a href="https://aitranslator2.vercel.app/"><strong>Visit the site »</strong></a>
+  </div>
+  <br />
 
 ## 📋 <a name="table">Table of Contents</a>
 
@@ -49,17 +52,8 @@ AI Translator is an advanced language translation tool that leverages cutting-ed
 👉 **Advanced AI**: Utilize Google Generative AI for state-of-the-art translation capabilities.
 
 👉 **Serverless Database**: Store translations securely with Neon Database.
+![Translator](image3.png)
 
 ## <a name="quick-start">🏃💨 Quick Start</a>
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Visit the site 👉: [AI Translator](https://aitranslator2.vercel.app/)
