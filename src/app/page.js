@@ -69,7 +69,7 @@ export default function Home() {
           Break language barriers instantly with our powerful translation equipped with audio translation!
         </p>
       </div>
-      <div className="bg-white shadow-xl rounded-lg p-6 max-w-3xl mx-auto">
+      <div className="bg-white shadow-xl rounded-lg 4p- md:p-6 max-w-3xl mx-auto">
         <div className="grid grid-rows-[20px_1fr_20px] items-start justify-items-center p-2 pb-2 gap-4 sm:p-6 font-[family-name:var(--font-geist-sans)]">
           <div className="flex flex-col gap-8 row-start-2 items-center sm:items-start w-full">
             <form
@@ -83,8 +83,8 @@ export default function Home() {
                   setIsSaved(false);
                 }
               }}>
-              <div className="flex flex-row gap-4">
-                <div className="container flex flex-col">
+              <div className="flex flex-col md:flex-row gap-4">
+                <div className="container flex flex-col flex-1">
                   <Dropdown name="languageFrom" value={languageFrom} options={languageOptions} onChange={handleLanguageFromChange} />
                   <textarea
                     placeholder="Enter text to translate"
@@ -95,7 +95,7 @@ export default function Home() {
                     onChange={handleInputChange}
                   />
                 </div>
-                <div className="container flex flex-col">
+                <div className="container flex flex-col flex-1 ">
                   <div className="justify-between flex">
                     <Dropdown name="languageTo" value={languageTo} options={languageOptions} onChange={handleLanguageToChange} />
                     <SaveBtn
